@@ -32,7 +32,7 @@ export default function App() {
   return (
     <>
       {/* Wrapper to limit the content */}
-      <View style={styles.container}>
+      <SafeAreaView style={styles.container}>
         {/* Status bar that shows the System info */}
         <StatusBar style="light" />
         {/* The scrollview makes the content inside scrollable if the content is overflowing */}
@@ -181,7 +181,7 @@ export default function App() {
             </Text>
           </ImageBackground>
         </ScrollView>
-      </View>
+      </SafeAreaView>
     </>
   );
 }
